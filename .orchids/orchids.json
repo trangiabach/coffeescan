@@ -2,6 +2,9 @@
   "projectId": "52e51cc4-559a-4920-8a1a-2ed469c842be",
   "createdAt": 1770833719476,
   "version": "1.0",
-  "startupCommands": [],
+  "startupCommands": [
+    "cd /Users/bachtran/coffeescan/coffeescan_backend/coffeescan_backend && python3 manage.py runserver 8000",
+    "cd /Users/bachtran/coffeescan/coffeescan_frontend/my-eui-starter && bun install && npx next dev -p 3456"
+  ],
   "templateId": "any"
 }

@@ -8,9 +8,7 @@ import {
 import { getTheme, enableTheme } from '../lib/theme';
 
 /**
- * React context for storing theme-related data and callbacks.
- * `colorMode` is `light` or `dark` and will be consumed by
- * various downstream components, including `EuiProvider`.
+ * React cwnstream components, including `EuiProvider`.
  */
 export const GlobalProvider = createContext<{
   colorMode?: string;
